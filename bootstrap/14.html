@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BS14</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+    <p>this is used for the navigation of different things at one webpage</p>
+    <ul>
+        <li><a href="#bsc">BOOTSTRAP COLORS</a></li>
+        <li><a href="#tables">BOOTSTRAP TABLES</a></li>
+        <li><a href="#lists">BOOTSTRAP LISTS</a></li>
+        <li><a href="#corousels">BOOTSTRAP COROUSELS</a></li>
+      </ul>
+    <section id="bsc">
+        <p style="font-size: larger;"><b>these are the different types of colors according to its text with different types of background colors</b></p>
+    <div class="text-bg-primary p-3">Primary with contrasting color</div>
+    <div class="text-bg-secondary p-3">Secondary with contrasting color</div>
+    <div class="text-bg-success p-3">Success with contrasting color</div>
+    <div class="text-bg-danger p-3">Danger with contrasting color</div>
+    <div class="text-bg-warning p-3">Warning with contrasting color</div>
+    <div class="text-bg-info p-3">Info with contrasting color</div>
+    <div class="text-bg-light p-3">Light with contrasting color</div>
+    <div class="text-bg-dark p-3">Dark with contrasting color</div>
+    </section>
+    <section id="tables">
+        <table class="table table-dark table-bordered  table-striped$table-hover-bg-factor table-hover">
+        
+            <thead>
+              <tr>
+                <th scope="col">#</th>
+                <th scope="col">First</th>
+                <th scope="col">Last</th>
+                <th scope="col">Handle</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">1</th>
+                <td>INDU</td>
+                <td>VEMULA</td>
+                <td>@vemula</td>
+              </tr>
+              <tr>
+                <th scope="row">2</th>
+                <td>SOWMYA</td>
+                <td>TALARI</td>
+                <td>@sowmya</td>
+              </tr>
+              <tr>
+                <th scope="row">3</th>
+                <td colspan="2">the warrior</td>
+                <td>@instagram</td>
+              </tr>
+            </tbody>
+          
+      </table>
+    </section>
+    <section id="lists">
+        <ul class="list-group">
+            <li class="list-group-item" style="font-size: x-large;">default list group items</li>
+          
+            <li class="list-group-item list-group-item-primary">Primary</li>
+            <li class="list-group-item list-group-item-secondary">Secondary</li>
+            <li class="list-group-item list-group-item-success">Success</li>
+            <li class="list-group-item list-group-item-danger">Danger</li>
+            <li class="list-group-item list-group-item-warning">Warning</li>
+            <li class="list-group-item list-group-item-info">info</li>
+            <li class="list-group-item list-group-item-light">light</li>
+            <li class="list-group-item list-group-item-dark">dark</li>
+          </ul>
+        <ul class="list-group">
+            <li class="list-group-item d-flex justify-content-between align-items-center">
+              instagram
+              <span class="badge text-bg-primary rounded-pill">14</span>
+            </li>
+            <li class="list-group-item d-flex justify-content-between align-items-center">
+            linkedin
+              <span class="badge text-bg-primary rounded-pill">2</span>
+            </li>
+            <li class="list-group-item d-flex justify-content-between align-items-center">
+              github
+              <span class="badge text-bg-primary rounded-pill">19</span>
+            </li>
+          </ul><br>
+          <button type="button" class="btn btn-primary position-relative">
+            Inbox
+            <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+              10+
+              <span class="visually-hidden">unread messages</span>
+            </span>
+          </button>
+    </section>
+    <section id="corousels">
+        <div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+            <!-- Indicators/dots -->
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+              <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+              <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+            </div>
+            
+            <!-- The slideshow/carousel -->
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="https://www.holidify.com/images/cmsuploads/compressed/chicago-17758781280_20201126152636.jpg" alt="Los Angeles" class="d-block" height="700px"  style="width:100%">
+                <div class="carousel-caption">
+                  <h3>CHICAGO'S NIGHT LIFE</h3>
+                  <p >windy city  has the best nightlife afterall!!</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="https://i.ytimg.com/vi/0JG321DG3Es/maxresdefault.jpg" alt="Chicago" class="d-block" height="700px" style="width:100%">
+                <div class="carousel-caption">
+                  <h3>BANGLORE</h3>
+                  <p>nightlife of BANGLORE. can anyone beat this!!</p>
+                </div> 
+              </div>
+              <div class="carousel-item">
+                <img src="https://www.tripsavvy.com/thmb/YxD8l7dk7qaBU9v4veW3MZx7SAo=/2119x1414/filters:fill(auto,1)/osakanightlife-173c08efc2b046fd9becde472d6b6b09.jpg" alt="New York"  height="700px" class="d-block" style="width:100%">
+                <div class="carousel-caption">
+                  <h3 style="font-size: xx-large;">JAPAN</h3>
+                  <p >is it new for japan to give this dreamy night life vibes!!</p>
+                </div>  
+              </div>
+            </div>
+            
+            <!-- Left and right controls/icons -->
+            <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+              <span class="carousel-control-next-icon"></span>
+            </button>
+            </div>
+    </section>
+</body>
+</html>
